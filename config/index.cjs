@@ -72,6 +72,9 @@ const USER_CONFIG = {
       id: 'obmud5-PsXqi27eOPRSiGem4-GvY',
     }
   ],
+  SLOT_LIST: [
+    { keyword: 'remind_gy', contents: '今天记得打卡哦' }
+  ]
 
 }
 
