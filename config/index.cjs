@@ -23,7 +23,7 @@ const USER_CONFIG = {
     //   // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
     //   id: 'obmud5_e9-jfO25iuQXLdu9b_wkI',
     //   // 使用微信测试号：你想对他发送的模板消息的模板ID
-    //   useTemplateId: 'yPjhUNZQpBOytp5kpGc2HEZfLabRipd4p2Qs-xrqpXk',
+    //   useTemplateId: '9YrSYZtTqHLi_pCNxfhBQl8NBloSja7rdeNIpxWJBPc',
     //   // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
     //   horoscopeDate: '03-10',
     //   festivals: [
@@ -41,7 +41,7 @@ const USER_CONFIG = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "obmud5-PsXqi27eOPRSiGem4-GvY",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "yPjhUNZQpBOytp5kpGc2HEZfLabRipd4p2Qs-xrqpXk",
+      useTemplateId: "9YrSYZtTqHLi_pCNxfhBQl8NBloSja7rdeNIpxWJBPc",
       // 所在省份
       province: "陕西",
       // 所在城市
@@ -51,12 +51,13 @@ const USER_CONFIG = {
       // 专属节日提醒，如果你在这里填写了节日提醒，就不会执行FESTIVALS的提醒了, 和FESTIVALS的配置方法相同，可以往下查看，我这里就不重复写了
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
-        {"type": "节日", "name": "在一起的纪念日", "year": "2022", "date": "10-01"}
+        {"type": "节日", "name": "在一起的纪念日", "year": "2022", "date": "09-26"},
       ],
       // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
       customizedDateList: [
         // 在一起的日子
-        {"keyword": "love_day", date: "2022-08-26"}
+        {"keyword": "love_day", date: "2022-09-26"},
+        {"keyword": "meet_day", date: "2022-08-19"}
       ]
     }
   ],
