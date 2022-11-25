@@ -23,7 +23,7 @@ const USER_CONFIG = {
     //   // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
     //   id: 'obmud5_e9-jfO25iuQXLdu9b_wkI',
     //   // 使用微信测试号：你想对他发送的模板消息的模板ID
-    //   useTemplateId: '9YrSYZtTqHLi_pCNxfhBQl8NBloSja7rdeNIpxWJBPc',
+    //   useTemplateId: 'M8Xg37OWj-OuNC4rerxla-5FF6DWrczep-I6HaJkIoY',
     //   // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
     //   horoscopeDate: '03-10',
     //   festivals: [
@@ -41,7 +41,7 @@ const USER_CONFIG = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "obmud5-PsXqi27eOPRSiGem4-GvY",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "9YrSYZtTqHLi_pCNxfhBQl8NBloSja7rdeNIpxWJBPc",
+      useTemplateId: "M8Xg37OWj-OuNC4rerxla-5FF6DWrczep-I6HaJkIoY",
       // 所在省份
       province: "陕西",
       // 所在城市
