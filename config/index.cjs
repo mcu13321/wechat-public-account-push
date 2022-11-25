@@ -17,49 +17,54 @@ const USER_CONFIG = {
   CITY: '西安',
 
   USERS: [
-    // {
-    //   // 想要发送的人的名字
-    //   name: 'gy',
-    //   // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-    //   id: 'obmud5_e9-jfO25iuQXLdu9b_wkI',
-    //   // 使用微信测试号：你想对他发送的模板消息的模板ID
-    //   useTemplateId: 'M8Xg37OWj-OuNC4rerxla-5FF6DWrczep-I6HaJkIoY',
-    //   // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
-    //   horoscopeDate: '03-10',
-    //   festivals: [
-    //     {"type": "节日", "name": "在一起的纪念日", "year": "2022", "date": "09-26"}
-    //   ],
-    //   // 我们在一起已经有xxxx天了的配置
-    //   customizedDateList: [
-    //     // 在一起的日子
-    //     {"keyword": "love_day", date: "2022-09-26"}
-    //   ],
-    // },
     {
       // 想要发送的人的名字
-      name: "kc",
-      // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "obmud5-PsXqi27eOPRSiGem4-GvY",
-      // 你想对他发送的模板消息的模板ID
-      useTemplateId: "M8Xg37OWj-OuNC4rerxla-5FF6DWrczep-I6HaJkIoY",
+      name: 'gy',
+      // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
+      id: 'obmud5_e9-jfO25iuQXLdu9b_wkI',
+      // 使用微信测试号：你想对他发送的模板消息的模板ID
+      useTemplateId: 'M8Xg37OWj-OuNC4rerxla-5FF6DWrczep-I6HaJkIoY',
+      // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       // 所在省份
       province: "陕西",
       // 所在城市
       city: "西安",
-      // 新历生日, 仅用作获取星座运势, 格式必须
       horoscopeDate: '03-10',
-      // 专属节日提醒，如果你在这里填写了节日提醒，就不会执行FESTIVALS的提醒了, 和FESTIVALS的配置方法相同，可以往下查看，我这里就不重复写了
       festivals: [
-        // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
-        {"type": "节日", "name": "在一起的纪念日", "year": "2022", "date": "09-26"},
+        {"type": "节日", "name": "在一起的纪念日", "year": "2022", "date": "09-26"}
       ],
-      // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
+      // 我们在一起已经有xxxx天了的配置
       customizedDateList: [
         // 在一起的日子
         {"keyword": "love_day", date: "2022-09-26"},
         {"keyword": "meet_day", date: "2022-08-19"}
-      ]
-    }
+      ],
+    },
+    // {
+    //   // 想要发送的人的名字
+    //   name: "kc",
+    //   // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
+    //   id: "obmud5-PsXqi27eOPRSiGem4-GvY",
+    //   // 你想对他发送的模板消息的模板ID
+    //   useTemplateId: "M8Xg37OWj-OuNC4rerxla-5FF6DWrczep-I6HaJkIoY",
+    //   // 所在省份
+    //   province: "陕西",
+    //   // 所在城市
+    //   city: "西安",
+    //   // 新历生日, 仅用作获取星座运势, 格式必须
+    //   horoscopeDate: '03-10',
+    //   // 专属节日提醒，如果你在这里填写了节日提醒，就不会执行FESTIVALS的提醒了, 和FESTIVALS的配置方法相同，可以往下查看，我这里就不重复写了
+    //   festivals: [
+    //     // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
+    //     {"type": "节日", "name": "在一起的纪念日", "year": "2022", "date": "09-26"},
+    //   ],
+    //   // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
+    //   customizedDateList: [
+    //     // 在一起的日子
+    //     {"keyword": "love_day", date: "2022-09-26"},
+    //     {"keyword": "meet_day", date: "2022-08-19"}
+    //   ]
+    // }
   ],
 
 
